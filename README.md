@@ -13,24 +13,26 @@ I use the length of time to classify the grades.
 	Button A：你每次移动到你想画的那个点上可以通过A键来确认。确认的时候有确认声音。
 	Button B: 你可以通过B键来实现每个红点的移动，从而达到移动的目的。
 	Touch LOGO：通过触屏的操作你可以做到两点。
-
+## Output：
+	5*5 LED matrix: 通过5*5 LED 小玩具给你显示各level图案以及你每次移动到的红点位置。而且也通过这个给你反馈你画的对不对。
+	Speaker：通过speaker你听到各种状态的声音。
+	
+# 游戏步骤
 ### First
 	你画完了pattern之后触屏玩具会给你反馈。如果你画对了那给你笑脸的同时，播放画对对应的声音。画错了给你哭脸，同时播放画错时的声音。
 ### Second
 	你画对了之后进入到下一个level这个时候，你是看不到这个level的pattern。这个时候触屏你会看到这个level的pattern。但是这时候因为你相当于什么都没输入，所以玩具认为你画错了，所以会给你哭脸和画错声。
 
-Output：
-5*5 LED matrix: 通过5*5 LED 小玩具给你显示各level图案以及你每次移动到的红点位置。而且也通过这个给你反馈你画的对不对。
-Speaker：通过speaker你听到各种状态的声音。
 
-等级一共有6级。
-The patterns corresponding to each level are as follows:
-level0: small square
-level1: all-seeing eye
-level2: cup
-level3: hourglass
-level4: scissors
-level5: home
+
+ # 6 level pattern 
+	The patterns corresponding to each level are as follows:
+	level0: small square
+	level1: all-seeing eye
+	level2: cup
+	level3: hourglass
+	level4: scissors
+	level5: home
 
 你必须画对目前的level pattern 才能进入下一个level。
 一个level中如果画错了那么你必须重头开始画那个level的pattern。
