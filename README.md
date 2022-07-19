@@ -8,15 +8,15 @@ In this digital pet design, I made a small toy that guesses patterns from memory
 I use the length of time to classify the grades.
 
 
-#小玩具功能说明：
-##Input:
+# 小玩具功能说明：
+## Input:
 	Button A：你每次移动到你想画的那个点上可以通过A键来确认。确认的时候有确认声音。
 	Button B: 你可以通过B键来实现每个红点的移动，从而达到移动的目的。
 	Touch LOGO：通过触屏的操作你可以做到两点。
 
-###First
+### First
 	你画完了pattern之后触屏玩具会给你反馈。如果你画对了那给你笑脸的同时，播放画对对应的声音。画错了给你哭脸，同时播放画错时的声音。
-###Second
+### Second
 	你画对了之后进入到下一个level这个时候，你是看不到这个level的pattern。这个时候触屏你会看到这个level的pattern。但是这时候因为你相当于什么都没输入，所以玩具认为你画错了，所以会给你哭脸和画错声。
 
 Output：
