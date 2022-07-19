@@ -16,7 +16,7 @@ audio_init:
   ldr r0, =PWM0
 
   @ Up-counting only
-  mov r1, 0
+  mov r1, 0 
   str r1, [r0, PWMX_MODE]
 
   @ Perpetual playback bouncing between the two sequences
