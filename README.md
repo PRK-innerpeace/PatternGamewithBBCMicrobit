@@ -87,10 +87,10 @@ I use the length of time to classify the grades.
 	SysTick_Handler ：   Systick 中断处理函数在这里millisec_counter变量加一。
 
 # Main.s:
-## First :初始化所有必要的外设以及Systick
-## Second ：进入主循环一直检查三个input的flag。
+	1.初始化所有必要的外设以及Systick
+	2.进入主循环一直检查三个input的flag。
  
-## 分别有三个input事件对应的处理单元。
+## 三个input事件对应的处理单元。
 
 ### touch_pressed:
 	Touch LOGG被触屏时运行到这个单元。
